@@ -16,3 +16,35 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+
+/* 1. Підключаємо шрифт Montserrat, який використовується в макеті */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.timer {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.value {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.label {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+
+.form {
+  width: 300px;
+  margin: 0 auto;
+}
